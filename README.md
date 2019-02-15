@@ -2,9 +2,9 @@
 *Actividad*
 
 Que significan y para que sirven las siguientes palabras claves.
-*Local:  es cuando solo una persona estará trabajando en ese repositorio.
-*Remote: llevar otras contribuciones a mi repositorio.
-*Init:Es para crear un nuevo subdirectorio donde estarán los todos los archivos.
+- Local:  es cuando solo una persona estará trabajando en ese repositorio.
+- Remote: llevar otras contribuciones a mi repositorio.
+- Init:Es para crear un nuevo subdirectorio donde estarán los todos los archivos.
 *Clone: Es clonar el repositorio y creara una carpeta con el nombre de nuestro repositorio.
 *Add: Sirve para comenzar a modificar algún archivo creado.
 *Commit:Sirve para poder agregar o dejar un mensaje cuando se haya modificado algún repositorio.
