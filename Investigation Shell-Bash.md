@@ -45,5 +45,15 @@ Los siguientes comando son los mas importantes por aprender, ya que son los que 
 + Limpiar (clear)
 + Salir (exit)
 
-
-
+### ¿Puedes recordar para que son los siguientes comandos?
+>
++ pwd:
++ ls:
++ mv:
++ cd:
++ touch:
++ mkdir:
++ less:
++ rmdir:
++ rm:
++ help
