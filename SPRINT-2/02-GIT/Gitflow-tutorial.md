@@ -48,5 +48,3 @@ Vamos a crear un archivo nuevo donde trabajaremos, para crear el archivo podemos
 ![First-step](https://github.com/CesarG91/Tatooine-HDH/blob/sprint/SPRINT-2/02-GIT/img/create-file.jpg)
 >
 ## Iniciar proceso de seguimiento del archivo nuevo
-
-
