@@ -73,3 +73,15 @@ Ingresamos el comando **git commit** en esta fase debemos agregar un mensaje al 
 2. Dentro de la terminal ingresamos el comando **git commit -m 'mensaje'** es importante que el mensaje este dentro de las comillas simples.
 ![First-step](https://github.com/CesarG91/Tatooine-HDH/blob/sprint/SPRINT-2/02-GIT/img/commit-terminal.jpg)
 >
+## Hacer un push al servidor
+>
+Una vez terminado, continuamos por ingresar el comando **git push origin desde la rama que se esta utilizando** para enviar nuestro archivo al servidor. Por cuestiones de seguridad de pedira que ingreses tu nombre de usuario y la contraseña.
+>
+![First-step](https://github.com/CesarG91/Tatooine-HDH/blob/sprint/SPRINT-2/02-GIT/img/push.jpg)
+>
+## Comparar
+Una vez terminado, nos dirigimos al github y actualizamos la pagina, como podemos observar nos notifica que se ha realizado un push. Hacemos clic en el boton del lado derecho **Compare & pull request**, nos aparecera el mensaje que se ingreso previamente y los cambios que se hayan realizado.
+>
+![First-step](https://github.com/CesarG91/Tatooine-HDH/blob/sprint/SPRINT-2/02-GIT/img/compare.jpg)
+>
+![First-step](https://github.com/CesarG91/Tatooine-HDH/blob/sprint/SPRINT-2/02-GIT/img/compare-final.jpg)
