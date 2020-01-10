@@ -43,8 +43,33 @@ Nota. Cuando necesitemos saber que ramas tenemos creadas utilizamos el siguiente
 >
 ## Crear un nuevo archivo
 >
-Vamos a crear un archivo nuevo donde trabajaremos, para crear el archivo podemos crearlo directamente en nuestro editor de texto o desde la terminal, vamos hacerlo con la terminal. Escribimos el comando **touch** y el nombre que tendra (para verificar que se haya creado correctamente podemos utilizar el comando **ls** para que nos despliege la lista de contenidos del proyecto), una vez creado utilizamos el comando **git status** donde nos avisara que este archivo aun no se ha hecho registro del archivo.
+Vamos a crear un archivo nuevo donde trabajaremos, para crear el archivo se puede hacer de dos formas directamente en nuestro editor de texto o desde la terminal, vamos hacerlo con la terminal. Escribimos el comando **touch** y el nombre que tendra (para verificar que se haya creado correctamente podemos utilizar el comando **ls** para que nos despliege la lista de contenidos del proyecto), una vez creado utilizamos el comando **git status** donde nos avisara que este archivo aun no se ha sido registrado **UNTRACKED**.
 >
 ![First-step](https://github.com/CesarG91/Tatooine-HDH/blob/sprint/SPRINT-2/02-GIT/img/create-file.jpg)
 >
 ## Iniciar proceso de seguimiento del archivo nuevo
+>
+Ingresamos el comando **git add nombre del archivo** seguido de un enter, verificamos nuevamente con el comando status y nos mostrara que el archivo ya se encuentra registrado **TRACKED**.
+>
+![First-step](https://github.com/CesarG91/Tatooine-HDH/blob/sprint/SPRINT-2/02-GIT/img/tracing.jpg)
+>
+Realizamos una prueba para ver la siguiente fase del gitflow, abrimos el archivo e ingresamos un texto y volvemos hacer el mismo procedimiento, *git status* y nos avisara que el archivo ha sido modificado **MODIFIED**. 
+>
+![First-step](https://github.com/CesarG91/Tatooine-HDH/blob/sprint/SPRINT-2/02-GIT/img/modify.jpg)
+>
+Volvemos a ingresar el comando **git add** para registrar los cambios realizados.
+>
+![First-step](https://github.com/CesarG91/Tatooine-HDH/blob/sprint/SPRINT-2/02-GIT/img/tracing.jpg)
+>
+Ya han sido registrados, ahora nuestro archivo se encuentra en la fase **STAGE** donde estara ahi hasta que se realice un commit.
+>
+## Ingresamos un commit
+>
+Ingresamos el comando **git commit** en esta fase debemos agregar un mensaje al commit (breve mensaje solo para poder identificar que cambios se realizaron en este archivo), cabe mencionar que hay dos formas de agregar un mensaje.
+>
+1. Ingresamos el comando **git commit -v** y no abrira nuestro editor de texto donde agregaremos el breve mensaje.
+![First-step](https://github.com/CesarG91/Tatooine-HDH/blob/sprint/SPRINT-2/02-GIT/img/commit-v.jpg)
+>
+2. Dentro de la terminal ingresamos el comando **git commit -m 'mensaje'** es importante que el mensaje este dentro de las comillas simples.
+![First-step](https://github.com/CesarG91/Tatooine-HDH/blob/sprint/SPRINT-2/02-GIT/img/commit-terminal.jpg)
+>
