@@ -21,27 +21,29 @@ Diferencia entre SH y BASH:
 >
 ## SH
 ### Shell
-+Es una cáscara específica
-+Un intérprete de comandos y un lenguaje de programación
-+Predecesor de BASH
+>
++ Es una cáscara específica
++ Un intérprete de comandos y un lenguaje de programación
++ Predecesor de BASH
 ## BASH
-###Bourne Again Shell
-+Es una cáscara específica
-+Un intérprete de comandos y un lenguaje de programación
-+Tiene una funcionalidad SH y más
-+Sucesor de SH
-+Bash es el valor por defecto SHELL
+### Bourne Again Shell
+>
+- Es una cáscara específica
+- Un intérprete de comandos y un lenguaje de programación
++ Tiene una funcionalidad SH y más
++ Sucesor de SH
++ Bash es el valor por defecto SHELL
 >
 Los siguientes comando son los mas importantes por aprender, ya que son los que nos permiten realizar los procesos que comunmente se estarian utilizando durante el trabajo como por ejemplo:
 
-+Crear directorios (mkdir)
-+Crear ficheros (touch)
-+Lista de contenidos (ls)
-+Cambio de directorio (cd)
-+Eliminar directorios o archivos (rm)
-+Permisos de super usuario (Sudo)
-+Limpiar (clear)
-+Salir (exit)
++ Crear directorios (mkdir)
++ Crear ficheros (touch)
++ Lista de contenidos (ls)
++ Cambio de directorio (cd)
++ Eliminar directorios o archivos (rm)
++ Permisos de super usuario (Sudo)
++ Limpiar (clear)
++ Salir (exit)
 
 
 
